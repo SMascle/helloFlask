@@ -21,8 +21,9 @@ pyenv activate helloFlask
 python --version 
 # affichera bien que la version de base est 3.8.6
 
-## inposer un environement python dans le dossier courant
+## imposer un environement python dans le dossier courant
 pyenv local 3.8.6
+pyenv local testEnv310
 
 ### Fin Pyenv 
 
@@ -49,6 +50,20 @@ gedit pyproject.toml
 
 ## Appliquer une commande poetry
 poetry run ___________
+
+### Fin poetry
+
+
+
+### Utiisation Flask et Jinja
+# commencer avec les étapes précédentes à avoir les bonnes dépendances et environements informatiques.
+
+## Installer Jinja2
+poetry add jinja2
+
+
+
+
 
 
 
